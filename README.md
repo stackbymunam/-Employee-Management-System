@@ -1,16 +1,70 @@
-# React + Vite
+# Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The Employee Management System is a modern web application designed to help organizations manage employee records and various HR-related tasks efficiently. Built with React and Vite for optimal performance.
 
-Currently, two official plugins are available:
+## Features
+- **Employee CRUD Operations** - Create, read, update, and delete employee records
+- **Search & Filter** - Quickly find employees using multiple search criteria  
+- **Responsive UI** - Clean, intuitive interface for seamless user experience
+- **Fast Performance** - Built with Vite for instant hot module replacement
+- **Code Quality** - Enforced with ESLint for consistent code standards
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend**: React 19.1.1, Vite 7.1.7
+- **Styling**: Tailwind CSS 4.2.2
+- **Build Tool**: Vite
+- **Linting**: ESLint 9.36.0
+- **Language**: JavaScript (Module-based)
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-## Expanding the ESLint configuration
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/stackbymunam/-Employee-Management-System.git
+   cd -Employee-Management-System
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## Available Scripts
+- `npm run dev` - Start development server with HMR
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint to check code quality
+
+## Project Structure
+```
+├── src/          - Application source code
+├── public/       - Static assets
+├── index.html    - Main HTML entry point
+├── package.json  - Dependencies and scripts
+└── vite.config.js - Vite configuration
+```
+
+## Contributing
+Feel free to fork this project, make improvements, and submit pull requests.
+
+## Developer
+**Abdul Munam**
+
+---
+Happy coding! 🚀
