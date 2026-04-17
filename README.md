@@ -17,39 +17,9 @@ The Employee Management System is a modern web application designed to help orga
 - **Linting**: ESLint 9.36.0
 - **Language**: JavaScript (Module-based)
 
-## Getting Started
+## Check it out from here 
 
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/stackbymunam/-Employee-Management-System.git
-   cd -Employee-Management-System
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-4. Build for production:
-   ```bash
-   npm run build
-   ```
-
-## Available Scripts
-- `npm run dev` - Start development server with HMR
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint to check code quality
 
 ## Project Structure
 ```
